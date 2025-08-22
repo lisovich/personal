@@ -1777,3 +1777,8 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+.text-container {
+    min-height: 100vh;     /* ocupa toda la pantalla, pero se extiende si hay más texto */
+    overflow-y: visible;   /* deja fluir el contenido sin scroll interno */
+}
