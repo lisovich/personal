@@ -1777,34 +1777,3 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
-
-.text-container {
-    min-height: 100vh;
-    overflow-y: visible;
-}
-
-/* Opcional: para ocultar scrollbars si en algún caso se activan */
-.text-container::-webkit-scrollbar {
-    display: none;
-}
-.text-container {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-div {
-   overflow-y: visible !important;
-   min-height: auto !important;
-}
-
-.w-slider-arrow-left,
-.w-slider-arrow-right {
-  display: none !important;
-}
-
-.image-container img {
-  display: block !important;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
