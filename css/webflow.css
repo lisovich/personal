@@ -1779,6 +1779,15 @@ textarea.w-select {
 }
 
 .text-container {
-    min-height: 100vh;     /* ocupa toda la pantalla, pero se extiende si hay más texto */
-    overflow-y: visible;   /* deja fluir el contenido sin scroll interno */
+    min-height: 100vh;
+    overflow-y: visible;
+}
+
+/* Opcional: para ocultar scrollbars si en algún caso se activan */
+.text-container::-webkit-scrollbar {
+    display: none;
+}
+.text-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
