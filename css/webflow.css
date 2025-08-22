@@ -1791,3 +1791,8 @@ textarea.w-select {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+div {
+   overflow-y: visible !important;
+   min-height: auto !important;
+}
