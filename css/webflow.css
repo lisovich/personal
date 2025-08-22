@@ -1796,3 +1796,8 @@ div {
    overflow-y: visible !important;
    min-height: auto !important;
 }
+
+.w-slider-arrow-left,
+.w-slider-arrow-right {
+  display: none !important;
+}
